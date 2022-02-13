@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.playgound{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.widget-component {
+    display: flex;
+    width: 500px;
+    height: 250px;
+    background-color: #f5992f;
+}
+
+.code-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.code {
+    display: block;
+    min-width: 400px;
+    height: auto;
+    padding: 1em 1.5em;
+    background: #f4f4f4;
+    color: #666;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    page-break-inside: avoid;
+    line-height: 1.6;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.code .wrapper .rule {
+    margin-left: 30px;
+}
+
+.code .wrapper .rule .property {
+    color: #2fb6f5;
+}
+
+.code .wrapper .rule .value {
+    color: #f5992f;
+}
